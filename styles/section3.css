@@ -1,0 +1,41 @@
+
+.cards{
+    display: flex;
+}
+
+.card{
+    padding: 0px 10px;
+}
+
+
+.card img{
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+}
+
+
+
+
+.koloneles{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    background-color: rgb(226, 221, 221);
+    font-size: 12px;
+    padding: 10px;
+    text-align: left;
+    column-gap: 15px;
+    /* box-sizing: border-box; */
+}
+
+.koloneles > div > p:nth-child(2){
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+
+
+

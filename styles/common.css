@@ -1,0 +1,101 @@
+
+/* MAIN COLORS  */
+:root{
+    --color-main: rgb(203, 51, 151);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* MARGIN AND BACKGROUND OF THE BODY  */
+body{
+    margin: 0px;
+    background-color: white;
+}
+
+/* PADDING OF THE MAIN PART OF THE WEBSITE  */
+main{
+    padding: 30px;
+}
+
+
+/* VARIUOS TEXTS  */
+h1{
+    font-size: 2rem;
+}
+
+.text{
+    padding: 25px;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.pink{
+    color: var(--color-main);
+}
+
+p, li{
+    color: grey;
+}
+
+
+.orange{
+    color: orange;
+}
+
+.grey{
+    color: grey;
+}
+
+.black{
+    color: black;
+}
+
+.bigger{
+    font-size: 1.5rem;
+}
+
+
+
+
+/* LOGO IMAGES  */
+[src="/images/nft landing.png"]{
+    height: 50px;
+    padding: 10px;
+    border-radius: 20px;
+} 
+
+/* BUTTONS  */
+button {
+        
+        padding: 15px 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+
+        /* border: 3px solid ; */
+
+        border: 3px solid transparent;
+        box-shadow: inset 0px 0px 100vw #fff;
+        border-radius: 30px;
+
+        border-image: linear-gradient(45deg, purple, orange) 1;
+        /* border-width: 4px;
+        border-style: solid; */
+}
+
+
+/* ICONS  */
+.icons{
+    margin-right: 25px;
+    color: var(--color-main);
+}
+        
+.icons i:hover{
+    color: rgb(89, 44, 141); 
+}
+

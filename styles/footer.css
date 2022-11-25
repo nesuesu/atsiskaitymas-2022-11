@@ -1,0 +1,40 @@
+
+
+footer{
+    margin: 0px 50px;
+}
+
+
+
+.flex1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.flex2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,100px);
+    justify-content: space-evenly;
+    padding: 30px;
+}
+
+.grid ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer > div:last-child > p:last-child{
+    display: none
+}
+
+
+

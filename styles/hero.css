@@ -1,0 +1,26 @@
+
+
+#hero{
+    margin-top: 70px;
+    display: block;
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* width: 10%; */
+    position: relative;
+
+}
+
+.width{
+    width: 50%; 
+}
+
+#hero img{
+    height:350px; 
+    position: absolute; 
+    right:-130px; 
+    top: 0px; 
+    overflow: visible; 
+    z-index: -5;
+}
+
+

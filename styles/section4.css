@@ -1,0 +1,13 @@
+
+
+#section4{
+    display: flex;
+    justify-content: space-between;
+}
+
+#section4 img{
+    height:300px; 
+    position:absolute; 
+    right:-45px;
+}
+

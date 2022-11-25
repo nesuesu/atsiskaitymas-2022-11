@@ -1,0 +1,65 @@
+
+
+
+header{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+
+    height: 70px;
+
+    position: fixed;
+    top: 0px;
+    width: 100%;
+
+    z-index: 10;
+}
+
+
+#logo{
+    height: 30px;
+    margin-left: 25px;
+}
+
+#menu{
+    margin-right: 25px;
+    margin-top: 25px;
+    color: black; 
+}
+
+
+
+
+li{
+    list-style-type: none;
+    float: left;
+
+    /* padding: 10px; */
+    margin: 10px;
+
+
+}
+
+#menu1 a{
+    text-decoration: none;
+    color: black;
+}
+
+#menu1{
+    display: none;
+}
+
+
+
+
+#menu i:hover{
+    color: rgb(89, 44, 141); 
+}
+
+/* #logo:hover{
+    background-color: rgb(172, 191, 216);
+    border-radius: 15px;
+
+} */
+
+
